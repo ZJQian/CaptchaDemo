@@ -12,6 +12,8 @@
 		EEFE704A1E6D0582008A5005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEFE70481E6D0582008A5005 /* Main.storyboard */; };
 		EEFE704C1E6D0582008A5005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEFE704B1E6D0582008A5005 /* Assets.xcassets */; };
 		EEFE704F1E6D0582008A5005 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEFE704D1E6D0582008A5005 /* LaunchScreen.storyboard */; };
+		EEFE70571E6D05A6008A5005 /* CaptchaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFE70561E6D05A6008A5005 /* CaptchaView.swift */; };
+		EEFE70591E6D0C06008A5005 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFE70581E6D0C06008A5005 /* UIColor+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EEFE704B1E6D0582008A5005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEFE704E1E6D0582008A5005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEFE70501E6D0582008A5005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEFE70561E6D05A6008A5005 /* CaptchaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptchaView.swift; sourceTree = "<group>"; };
+		EEFE70581E6D0C06008A5005 /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				EEFE70441E6D0581008A5005 /* AppDelegate.swift */,
 				EEFE70461E6D0581008A5005 /* ViewController.swift */,
+				EEFE70561E6D05A6008A5005 /* CaptchaView.swift */,
+				EEFE70581E6D0C06008A5005 /* UIColor+Ext.swift */,
 				EEFE70481E6D0582008A5005 /* Main.storyboard */,
 				EEFE704B1E6D0582008A5005 /* Assets.xcassets */,
 				EEFE704D1E6D0582008A5005 /* LaunchScreen.storyboard */,
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEFE70471E6D0581008A5005 /* ViewController.swift in Sources */,
+				EEFE70591E6D0C06008A5005 /* UIColor+Ext.swift in Sources */,
 				EEFE70451E6D0581008A5005 /* AppDelegate.swift in Sources */,
+				EEFE70571E6D05A6008A5005 /* CaptchaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
